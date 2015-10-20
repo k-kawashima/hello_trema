@@ -24,5 +24,3 @@ class HelloTrema < Trema::Controller
     logger.info "Bye #{datapath_id.to_hex}!"
   end
 end
-'''
-
