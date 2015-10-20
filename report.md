@@ -8,6 +8,7 @@ self.classによって、当該メソッドを呼び出したクラスのオブ�
 変数を文字列中に展開できるように#{}でself.classを囲んだ。
 以下に、変更したソースコードを記載する。
 
+```ruby:hello_world.rb
 # Hello World!
 class HelloTrema < Trema::Controller
   def start(_args)
@@ -23,3 +24,5 @@ class HelloTrema < Trema::Controller
     logger.info "Bye #{datapath_id.to_hex}!"
   end
 end
+'''
+
