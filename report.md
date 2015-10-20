@@ -1,6 +1,6 @@
 ###課題回答
 ####その1
-スイッチが停止すると、switch_disconnected()が呼び出される。そこで、hello_world.rbに新たにswitch_disconnected()を追加し、その中でstart()を参考にしてlogger.info "Bye #{datapath_id.to_hex}!"を追加した。
+スイッチが停止すると、switch_disconnected()が呼び出される。そこで、hello_world.rbに新たにswitch_disconnected()を定義し、その中でlogger.info "Bye #{datapath_id.to_hex}!"を追加した。これによって、スイッチ停止時に"Bye 0xabc"を表示できる。
 ####その2
 startメソッドの出力を
 "logger.info 'Trema started'"から、
