@@ -1,5 +1,5 @@
-レポート内容
-変更点
+###課題回答
+####変更点
 startメソッドの出力を
 "logger.info 'Trema started'"から、
 "logger.info "Hi! from #{self.class}""へ変更した。
