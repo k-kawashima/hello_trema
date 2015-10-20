@@ -1,5 +1,7 @@
 ###課題回答
-####変更点
+####その1
+スイッチが停止すると、switch_disconnected()が呼び出される。そこで、hello_world.rbに新たにswitch_disconnected()を追加し、その中でstart()を参考にしてlogger.info "Bye #{datapath_id.to_hex}!"を追加した。
+####その2
 startメソッドの出力を
 "logger.info 'Trema started'"から、
 "logger.info "Hi! from #{self.class}""へ変更した。
